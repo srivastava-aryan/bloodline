@@ -72,6 +72,9 @@ button {
 .content {
     max-width: 500px;
     margin: 20px;
+    padding: 10px 10px 30px 15px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
     color: #fff;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -79,24 +82,27 @@ button {
 .content h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .content p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
+    color:#000;
 }
 
 .content a {
     padding: 10px 20px;
     background-color: #ff6f61;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .content a:hover {
-    background-color: #e65550;
+    background-color: #000;
+    color:#fff
 }
 
 /* Login Form */
