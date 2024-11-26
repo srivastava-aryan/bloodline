@@ -54,15 +54,16 @@ body {
 
 /* Profile Container */
 .profile-container {
-    background: rgba(0, 0, 0, 0.8);
-    margin-left: 35%;
+    background: rgba(195, 194, 200, 0.8);
+    /* margin-left: 35%; */
     margin-top: 25px;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     max-width: 500px;
     width: 100%;
     text-align: center;
+    text-decoration:solid;
 }
 
 /* Profile Header */
@@ -81,13 +82,13 @@ body {
 
 .profile-header h1 {
     font-size: 1.8rem;
-    color: #fff;
+    color: #000;
     margin-bottom: 5px;
 }
 
 .profile-header p {
     font-size: 1rem;
-    color: #fff;
+    color: #000;
 }
 
 /* Profile Info */
@@ -98,13 +99,13 @@ body {
 
 .profile-info h2 {
     font-size: 1.4rem;
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
 }
 
 .profile-info p {
     font-size: 1rem;
-    color: #fff;
+    color: #000;
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -116,7 +117,7 @@ body {
 
 .profile-info ul li {
     font-size: 1rem;
-    color: #ffffff;
+    color: #000;
     margin-bottom: 10px;
 }
 
@@ -143,7 +144,8 @@ body {
 }
 
 .social-icon:hover {
-    background-color: #e65550;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Responsive Design */

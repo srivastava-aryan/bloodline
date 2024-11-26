@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#000;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6f61;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo ion-icon {
+    margin-right: 10px;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6f61;
+}
+
+/* Container Styles */
+.registration-container {
+    background: rgba(255, 255, 255, 0.4);
+    margin-left: 35%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header */
+.registration-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #6f6e6e;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+    outline: none;
+    border-color: #6f6e6e;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+}
