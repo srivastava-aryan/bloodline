@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #2660b8;
+    background:url(graphics2.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,10 +17,12 @@ body {
 
 /* Contact Container */
 .contact-container {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.38);
     padding: 30px;
+    border: #000000;
+    border-width: 10px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
     max-width: 400px;
     width: 100%;
     text-align: center;

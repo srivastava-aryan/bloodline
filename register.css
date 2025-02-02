@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:#000;
+    background:url(bloodimg.avif);
+    background-size: cover;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -11,7 +12,7 @@ body {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(255, 91, 91);
     margin: 20px;
     border-radius: 20px;
     display: flex;
@@ -27,7 +28,7 @@ body {
 .header .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff6f61;
+    color: #fff;
     display: flex;
     align-items: center;
 }
